@@ -1,0 +1,40 @@
+# SMIP - Smart Manufacturing Intelligence Platform
+
+> AI analytics over real-time IoT telemetry for factory floors, with live dashboards and alerting.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/smip-ai-iot-manufacturing-platform
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Factory machine data existed but was not usable - readings sat in device logs, problems were noticed after output had already suffered, and no one could compare performance across lines or shifts without assembling reports by hand.
+
+A platform that ingests machine telemetry continuously, stores it as time series, and puts an analytics and alerting layer on top. Operators get live floor state; supervisors get trends and comparisons. Thresholds and anomaly signals drive alerts so problems surface while they are still cheap to fix.
+
+## Stack
+Frontend: TypeScript, React, Backend: Node.js services, Data: Time-series telemetry store, IoT: Device telemetry integration, Analytics: Anomaly and threshold detection
+
+## Capabilities
+- Real-time machine telemetry ingestion
+- Live production dashboards
+- Anomaly and threshold alerting
+- Historical trend and shift comparison
+- Multi-line and multi-machine views
+
+## Outcomes
+- Machine problems surfaced during the shift rather than discovered after it
+- One comparable view across lines, replacing hand-built reports
+
+## FAQ
+Q: What does the platform monitor?
+A: Machine-level telemetry from the factory floor, aggregated into live and historical views per line and shift.
+
+Q: Is it predictive?
+A: It applies anomaly and threshold detection over the telemetry stream to flag developing problems early.
+
+Q: How does data get in?
+A: Devices report telemetry continuously into an ingestion layer that normalises and stores it as time series.
+
+Q: Can I see the implementation?
+A: Private repository; access on request.
